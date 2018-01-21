@@ -2,7 +2,6 @@ dependencies {
     compile 'org.apache.cxf:cxf-spring-boot-starter-jaxws:3.2.+'
     compile 'org.springframework.boot:spring-boot-starter:1.5+'
 
-
-    testCompile 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test:1.5.+'
 
 }
