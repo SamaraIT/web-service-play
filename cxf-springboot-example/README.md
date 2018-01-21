@@ -10,6 +10,9 @@ https://github.com/apache/cxf/tree/master/distribution/src/main/release/samples/
 Use "cxf.path" property to customize a CXFServlet URL pattern  
 Use "cxf.servlet.init" map property to customize CXFServlet properties such as "services-list-path" (available by default at  "/services"), etc.
 
-
-https://blog.codecentric.de/en/2016/02/spring-boot-apache-cxf/
+# Examples on net
+https://blog.codecentric.de/en/2016/02/spring-boot-apache-cxf/  
 http://www.baeldung.com/apache-cxf-with-spring
+
+# Logging
+https://www.codenotfound.com/apache-cxf-logging-soap-request-response-fault-messages-example.html
