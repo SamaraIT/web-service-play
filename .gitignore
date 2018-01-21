@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+**/log/
 
 # BlueJ files
 *.ctxt
@@ -28,7 +29,7 @@ hs_err_pid*
 
 .gradle
 
-/build/
-/bin/
-/tmp/
-/out/
+**/build/
+**/bin/
+**/tmp/
+**/out/
