@@ -1,9 +1,12 @@
+apply plugin: 'groovy'
+
 dependencies {
-    compile 'org.apache.cxf:cxf-spring-boot-starter-jaxws:3.2.+'
-    compile 'org.apache.cxf:cxf-rt-features-logging:3.2.+'
+    compile "org.apache.cxf:cxf-spring-boot-starter-jaxws:${cxfVersion}"
+    compile "org.apache.cxf:cxf-rt-features-logging:${cxfVersion}"
 
-    compile 'org.springframework.boot:spring-boot-starter:1.5+'
+    compile "org.springframework.boot:spring-boot-starter:${springVersion}"
 
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:1.5.+'
-
+    testImplementation "org.springframework.boot:spring-boot-starter-test:${springVersion}"
+    testImplementation "org.spockframework:spock-core:${spockVersion}"
+    testImplementation "org.spockframework:spock-spring:${spockVersion}"
 }

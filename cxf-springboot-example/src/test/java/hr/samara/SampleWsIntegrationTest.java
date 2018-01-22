@@ -25,8 +25,7 @@ public class SampleWsIntegrationTest {
         JaxWsProxyFactoryBean proxyFactory = new JaxWsProxyFactoryBean();
         proxyFactory.setServiceClass(HelloService.class);
         proxyFactory.setAddress("http://localhost:" + this.port + "/services/hello");
-
-        client = (HelloService) proxyFactory.create();
+        this.client = (HelloService) proxyFactory.create();
     }
 
     @Test

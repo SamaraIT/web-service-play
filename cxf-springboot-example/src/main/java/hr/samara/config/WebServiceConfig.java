@@ -25,12 +25,12 @@ public class WebServiceConfig {
     @Bean
     public Bus bus() {
         if (loggingEnabled)
-            springBus.setFeatures(new ArrayList<>(Arrays.asList(loggingFeature())));
-        return springBus;
+            this.springBus.setFeatures(new ArrayList<>(Arrays.asList(loggingFeature())));
+        return this.springBus;
     }
 
     @Bean
-    public Endpoint endpoint() {
+    public Endpoint helloServiceEndpoint() {
         EndpointImpl endpoint = new EndpointImpl(bus(), new HelloServiceImpl());
         endpoint.publish("/hello");
         return endpoint;
@@ -40,7 +40,6 @@ public class WebServiceConfig {
     public LoggingFeature loggingFeature() {
         LoggingFeature loggingFeature = new LoggingFeature();
         loggingFeature.setPrettyLogging(true);
-
         return loggingFeature;
     }
 
