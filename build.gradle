@@ -1,12 +1,11 @@
 allprojects {
     task hello << { task -> println "I'm $task.project.name" }
-
-
 }
 
 subprojects {
     apply plugin: 'java'
     apply plugin: 'idea'
+    apply plugin: 'eclipse'
 
     dependencies {
        // testCompile 'junit:junit:4.12'
