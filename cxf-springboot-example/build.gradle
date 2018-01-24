@@ -1,12 +1,23 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
 apply plugin: 'groovy'
+apply plugin: 'org.springframework.boot'
 
 dependencies {
     compile "org.apache.cxf:cxf-spring-boot-starter-jaxws:${cxfVersion}"
     compile "org.apache.cxf:cxf-rt-features-logging:${cxfVersion}"
 
-    compile "org.springframework.boot:spring-boot-starter:${springVersion}"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+//    compile "org.springframework.boot:spring-boot-starter-security"
 
-    testImplementation "org.springframework.boot:spring-boot-starter-test:${springVersion}"
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
     testImplementation "org.spockframework:spock-core:${spockVersion}"
     testImplementation "org.spockframework:spock-spring:${spockVersion}"
 }
