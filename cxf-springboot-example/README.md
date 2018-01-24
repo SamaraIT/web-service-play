@@ -18,9 +18,9 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 [Apache CXF - Spring Boot SOAP Web Service Client Server Example](https://www.codenotfound.com/apache-cxf-spring-boot-soap-web-service-client-server-example.html)  
 
 # Logging
-[Apache CXF - Logging SOAP Request Response Fault Messages Example](https://www.codenotfound.com/apache-cxf-logging-soap-request-response-fault-messages-example.html)  
+[Apache CXF - Logging SOAP Request Response Fault Messages Example](https://www.codenotfound.com/apache-cxf-logging-soap-request-response-fault-messages-example.html)    
 
 # Actuator endpoints
-[Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)
+[Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)  
 [Spring Boot Actuator: A Complete Guide](https://dzone.com/articles/spring-boot-actuator-a-complete-guide)  
 [An introduction to Spring Boot Actuator](https://aboullaite.me/an-introduction-to-spring-boot-actuator/)  
