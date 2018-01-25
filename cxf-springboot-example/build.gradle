@@ -13,9 +13,10 @@ apply plugin: 'org.springframework.boot'
 dependencies {
     compile "org.apache.cxf:cxf-spring-boot-starter-jaxws:${cxfVersion}"
     compile "org.apache.cxf:cxf-rt-features-logging:${cxfVersion}"
+    // Conditional processing in Logback needs janino
+    compile "org.codehaus.janino:janino:${janinoVersion}"
 
     compile "org.springframework.boot:spring-boot-starter-actuator"
-//    compile "org.springframework.boot:spring-boot-starter-security"
 
     testImplementation "org.springframework.boot:spring-boot-starter-test"
     testImplementation "org.spockframework:spock-core:${spockVersion}"

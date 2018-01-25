@@ -1,13 +1,20 @@
 package hr.samara.web;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
 public class HelloServiceImpl implements hr.samara.web.HelloService {
 
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
     @Override
     public String hi(String request) {
-        if (StringUtils.isEmpty(request))
-            return "Hello Web Service";
-        else return "Hello " + request;
+        logger.info("START " + request);
+        String response = "Hello Web Service";
+        if (StringUtils.isEmpty(request) == false)
+            response = "Hello " + request;
+        logger.debug("END " + response);
+        return response;
     }
 }
