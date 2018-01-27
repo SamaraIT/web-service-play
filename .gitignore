@@ -28,6 +28,8 @@ hs_err_pid*
 *.iws
 
 .gradle
+# Avoid ignoring Gradle wrapper jar file
+!gradle-wrapper.jar
 
 **/build/
 **/bin/
