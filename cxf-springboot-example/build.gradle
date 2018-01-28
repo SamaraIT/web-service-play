@@ -17,6 +17,10 @@ dependencies {
     compile "org.codehaus.janino:janino:${janinoVersion}"
 
     compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "org.springframework.boot:spring-boot-starter-jdbc"
+    compile "com.h2database:h2:${h2Version}"
+
+    compileOnly "org.projectlombok:lombok:${lombockVersion}"
 
     testImplementation "org.springframework.boot:spring-boot-starter-test"
     testImplementation "org.spockframework:spock-core:${spockVersion}"

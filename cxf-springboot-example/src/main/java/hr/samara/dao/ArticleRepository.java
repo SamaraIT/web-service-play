@@ -1,0 +1,13 @@
+package hr.samara.dao;
+
+import hr.samara.model.Article;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+public interface ArticleRepository {
+    List<Article> findAll();
+    Article findByName(String name);
+    void updatePrice(Long id, BigDecimal price);
+    Article save(Article article);
+}

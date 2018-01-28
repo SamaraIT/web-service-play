@@ -2,6 +2,7 @@
 [CXF endpoint - services](http://localhost:8080/services)   
 [WSDL](http://localhost:8080/services/hello?wsdl)    
 [Actuator - health endpoint](http://localhost:8080/health) 
+[H2 Console](http://localhost:8080/h2-consolehttp://localhost:8080/h2-console)
 
 
 # Spring Boot CXF JAX-WS Starter
@@ -29,3 +30,6 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 [Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)  
 [Spring Boot Actuator: A Complete Guide](https://dzone.com/articles/spring-boot-actuator-a-complete-guide)  
 [An introduction to Spring Boot Actuator](https://aboullaite.me/an-introduction-to-spring-boot-actuator/)  
+
+# Lombok
+[Being lazy with Lombok](https://lankydanblog.com/2017/04/29/being-lazy-with-lombok/)  
