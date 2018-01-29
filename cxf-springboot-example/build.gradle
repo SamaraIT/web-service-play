@@ -18,6 +18,8 @@ dependencies {
 
     compile "org.springframework.boot:spring-boot-starter-actuator"
     compile "org.springframework.boot:spring-boot-starter-jdbc"
+    // to get org.aspectj:aspectjweaver:1.8.13
+    compile "org.springframework.boot:spring-boot-starter-aop"
     compile "com.h2database:h2:${h2Version}"
 
     compileOnly "org.projectlombok:lombok:${lombockVersion}"

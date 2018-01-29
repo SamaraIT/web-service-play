@@ -33,6 +33,7 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 
 # Lombok
 [Being lazy with Lombok](https://lankydanblog.com/2017/04/29/being-lazy-with-lombok/)  
+[Lombok Plugin for IntelliJ](https://plugins.jetbrains.com/plugin/6317-lombok-plugin)
 
 # Testing
 [Spring Boot features Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)  
@@ -40,4 +41,7 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 
 # Validation in Spring
 [How-to: Method-level validation in Spring with @Validated annotation](http://blog.codeleak.pl/2012/03/how-to-method-level-validation-in.html)  
-[Validating Spring MVC Request Mapping Method parameters](https://raymondhlee.wordpress.com/tag/methodvalidationpostprocessor/)  
+[Validating Spring MVC Request Mapping Method parameters](https://raymondhlee.wordpress.com/tag/methodvalidationpostprocessor/)    
+
+# AOP
+[Spring AOP AspectJ @AfterThrowing Annotation Advice Example](https://www.dineshonjava.com/spring-aop-aspectj-after-throwing-annotation-advice-example/)  
