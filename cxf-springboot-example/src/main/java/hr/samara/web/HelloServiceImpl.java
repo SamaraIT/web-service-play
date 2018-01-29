@@ -1,10 +1,11 @@
 package hr.samara.web;
 
+import hr.samara.web.api.HelloService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
-public class HelloServiceImpl implements hr.samara.web.HelloService {
+public class HelloServiceImpl implements HelloService {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 

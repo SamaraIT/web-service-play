@@ -1,6 +1,6 @@
 package hr.samara;
 
-import hr.samara.web.HelloService;
+import hr.samara.web.api.HelloService;
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean;
 import org.junit.Before;
 import org.junit.Test;
