@@ -32,6 +32,14 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     @Transactional(readOnly = true)
+    public Article findArticleById(Long id) {
+        Article article = this.articleRepository.findById(id);
+        logger.info("fetched " + article);
+        return article;
+    }
+
+    @Override
+    @Transactional(readOnly = true)
     public Article findArticleByName(String name) {
         Article article = this.articleRepository.findByName(name);
         logger.info("fetched " + article);
@@ -45,7 +53,7 @@ public class ArticleServiceImpl implements ArticleService {
     }
 
     @Override
-    public Article saveArticle(Article article) {
+    public Long saveArticle(Article article) {
         logger.info("save " + article);
         return this.articleRepository.save(article);
     }

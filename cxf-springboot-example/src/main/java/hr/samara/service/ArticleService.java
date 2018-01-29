@@ -12,7 +12,8 @@ import java.util.List;
 @Validated
 public interface ArticleService {
     List<Article> fetchArticles();
+    Article findArticleById(@NotNull(message = "{id.mandatory}")Long id);
     Article findArticleByName(@NotBlank(message = "{name.blank}") String name);
-    void updateArticlePrice(@Min(value = 1, message = "{id.positive}") Long id, @Min(value = 0, message = "{price.positive}") BigDecimal price);
-    Article saveArticle(@NotNull Article article);
+    void updateArticlePrice(@NotNull(message = "{id.mandatory}") Long id, @NotNull @Min(value = 0, message = "{price.positive}") BigDecimal price);
+    Long saveArticle(@NotNull Article article);
 }

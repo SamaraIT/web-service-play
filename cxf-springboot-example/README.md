@@ -33,3 +33,11 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 
 # Lombok
 [Being lazy with Lombok](https://lankydanblog.com/2017/04/29/being-lazy-with-lombok/)  
+
+# Testing
+[Spring Boot features Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)  
+[Testing in Spring Boot](http://www.baeldung.com/spring-boot-testing)  
+
+# Validation in Spring
+[How-to: Method-level validation in Spring with @Validated annotation](http://blog.codeleak.pl/2012/03/how-to-method-level-validation-in.html)  
+[Validating Spring MVC Request Mapping Method parameters](https://raymondhlee.wordpress.com/tag/methodvalidationpostprocessor/)  
