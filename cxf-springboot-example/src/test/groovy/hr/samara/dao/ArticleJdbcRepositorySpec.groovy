@@ -36,10 +36,10 @@ class ArticleJdbcRepositorySpec extends Specification {
         given: "create Article"
         Article article = new Article(name: 'Orange', price: 9.1)
         when:
-        Article savedArticle = articleRepository.save(article)
+        Long id = articleRepository.save(article)
+        Article savedArticle = articleRepository.findById(id)
         log.info("saved " + savedArticle)
         then:
-        article == savedArticle
         assertFirstArticle(savedArticle)
     }
 

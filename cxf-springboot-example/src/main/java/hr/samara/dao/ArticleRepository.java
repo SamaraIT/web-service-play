@@ -7,7 +7,8 @@ import java.util.List;
 
 public interface ArticleRepository {
     List<Article> findAll();
+    Article findById(Long id);
     Article findByName(String name);
     void updatePrice(Long id, BigDecimal price);
-    Article save(Article article);
+    Long save(Article article);
 }
