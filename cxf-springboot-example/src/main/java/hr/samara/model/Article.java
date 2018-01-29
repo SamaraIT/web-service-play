@@ -11,9 +11,11 @@ import java.util.Date;
 @Data
 @AllArgsConstructor
 public class Article implements Serializable{
+
     private Long id;
     private String name;
     private BigDecimal price;
+    private String description;
     @DateTimeFormat(pattern = "yyyy-MM-dd hh:mm:ss")
     private Date created;
 

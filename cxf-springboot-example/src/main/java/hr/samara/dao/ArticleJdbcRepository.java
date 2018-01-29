@@ -31,7 +31,7 @@ public class ArticleJdbcRepository implements ArticleRepository {
     @Override
     public List<Article> findAll() {
         return jdbcTemplate.query(SELECT,
-                (rs, rowNum) -> new Article(rs.getLong("id"), rs.getString("name"), rs.getBigDecimal("price"), rs.getDate("created"))
+                (rs, rowNum) -> new Article(rs.getLong("id"), rs.getString("name"), rs.getBigDecimal("price"), null, rs.getDate("created"))
         );
     }
 

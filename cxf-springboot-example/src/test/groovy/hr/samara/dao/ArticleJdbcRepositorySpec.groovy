@@ -10,7 +10,7 @@ import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.test.annotation.Rollback
 import spock.lang.Specification
 
-@JdbcTest()
+@JdbcTest
 @Rollback(false)
 @Slf4j
 class ArticleJdbcRepositorySpec extends Specification {
@@ -31,7 +31,6 @@ class ArticleJdbcRepositorySpec extends Specification {
         articles.size() == 1
         assertFirstArticle(articles[0])
     }
-
 
     def "should save article"() {
         given: "create Article"
@@ -97,6 +96,7 @@ class ArticleJdbcRepositorySpec extends Specification {
         article.name == 'Banana'
         article.price == 7.5
         article.created
+        article.description == null
     }
 
     private void assertSecondArticle(Article article) {
@@ -104,5 +104,6 @@ class ArticleJdbcRepositorySpec extends Specification {
         article.name == 'Orange'
         article.price == 9.1
         article.created
+        article.description == null
     }
 }
