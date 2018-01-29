@@ -1,7 +1,7 @@
 # Run at localhost
 [CXF endpoint - services](http://localhost:8080/services)   
 [WSDL](http://localhost:8080/services/hello?wsdl)    
-[Actuator - health endpoint](http://localhost:8080/health) 
+[Actuator - health endpoint](http://localhost:8080/health)  
 [H2 Console](http://localhost:8080/h2-consolehttp://localhost:8080/h2-console)
 
 
