@@ -1,9 +1,9 @@
 # Run at localhost
-[CXF endpoint - services](http://localhost:8080/services)   
+[CXF endpoint - services](http://localhost:8080/services)  
+[Swagger](http://localhost:8080/swagger-ui.html)  
 [WSDL](http://localhost:8080/services/hello?wsdl)    
 [Actuator - health endpoint](http://localhost:8080/health)  
 [H2 Console](http://localhost:8080/h2-consolehttp://localhost:8080/h2-console)
-
 
 # Spring Boot CXF JAX-WS Starter
 [Documentation](https://cxf.apache.org/docs/springboot.html)     
@@ -13,7 +13,7 @@ Registers CXFServlet with a  "/services/*" URL pattern for serving CXF JAX-WS en
 Use "cxf.path" property to customize a CXFServlet URL pattern  
 Use "cxf.servlet.init" map property to customize CXFServlet properties such as "services-list-path" (available by default at  "/services"), etc.
 
-# Examples in the world
+## Examples
 [Spring Boot & Apache CXF – How to SOAP in 2016](https://blog.codecentric.de/en/2016/02/spring-boot-apache-cxf/)    
 [A Guide to Apache CXF with Spring](http://www.baeldung.com/apache-cxf-with-spring)  
 [Apache CXF - Spring Boot SOAP Web Service Client Server Example](https://www.codenotfound.com/apache-cxf-spring-boot-soap-web-service-client-server-example.html)  
@@ -45,3 +45,7 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 
 # AOP
 [Spring AOP AspectJ @AfterThrowing Annotation Advice Example](https://www.dineshonjava.com/spring-aop-aspectj-after-throwing-annotation-advice-example/)  
+
+# Swagger
+[Setting Up Swagger 2 with a Spring REST API](http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)    
+[Spring Boot Restful API documentation with Swagger 2](https://springframework.guru/spring-boot-restful-api-documentation-with-swagger-2/)

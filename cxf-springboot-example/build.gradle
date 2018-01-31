@@ -17,6 +17,9 @@ dependencies {
     compile "org.codehaus.janino:janino:${janinoVersion}"
 
     compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "io.springfox:springfox-swagger-ui:${swaggerVersion}"
+    compile "io.springfox:springfox-swagger2:${swaggerVersion}"
+
     compile "org.springframework.boot:spring-boot-starter-jdbc"
     // to get org.aspectj:aspectjweaver:1.8.13
     compile "org.springframework.boot:spring-boot-starter-aop"
