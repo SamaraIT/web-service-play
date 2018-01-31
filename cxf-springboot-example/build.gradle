@@ -25,6 +25,7 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-aop"
     compile "com.h2database:h2:${h2Version}"
 
+    compile "org.springframework.boot:spring-boot-devtools"
     compileOnly "org.projectlombok:lombok:${lombockVersion}"
 
     testImplementation "org.springframework.boot:spring-boot-starter-test"
