@@ -1,7 +1,6 @@
 package hr.samara.service
 
 import groovy.util.logging.Slf4j
-import hr.samara.config.ServiceConfig
 import hr.samara.model.Article
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest

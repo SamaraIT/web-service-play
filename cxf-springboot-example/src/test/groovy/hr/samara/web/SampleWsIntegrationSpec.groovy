@@ -1,5 +1,6 @@
-package hr.samara
+package hr.samara.web
 
+import hr.samara.SampleWsApplication
 import hr.samara.web.api.HelloService
 import org.apache.cxf.jaxws.JaxWsProxyFactoryBean
 import org.springframework.boot.context.embedded.LocalServerPort

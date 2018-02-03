@@ -1,4 +1,4 @@
-package hr.samara.config
+package hr.samara.service
 
 import groovy.util.logging.Slf4j
 import org.springframework.boot.autoconfigure.SpringBootApplication
