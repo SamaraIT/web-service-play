@@ -10,7 +10,7 @@ import org.springframework.validation.beanvalidation.MethodValidationPostProcess
 class ServiceConfig {
 
     @Bean
-    public MethodValidationPostProcessor methodValidationPostProcessor() {
+    MethodValidationPostProcessor methodValidationPostProcessor() {
         return new MethodValidationPostProcessor();
     }
 }
