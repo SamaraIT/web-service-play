@@ -9,6 +9,12 @@ buildscript {
 
 apply plugin: 'groovy'
 apply plugin: 'org.springframework.boot'
+apply plugin: 'war'
+
+// for war file to have different name
+war {
+    baseName = 'cxf-demo'
+}
 
 dependencies {
     compile "org.apache.cxf:cxf-spring-boot-starter-jaxws:${cxfVersion}"
@@ -34,6 +40,8 @@ dependencies {
     testImplementation "org.spockframework:spock-core:${spockVersion}"
     testImplementation "org.spockframework:spock-spring:${spockVersion}"
     testImplementation "org.springframework.security:spring-security-test"
+
+    providedRuntime "javax.servlet:javax.servlet-api:3.1.0"
 }
 
 // Override Spring Version

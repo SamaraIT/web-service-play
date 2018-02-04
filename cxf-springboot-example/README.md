@@ -2,7 +2,7 @@
 [CXF endpoint - services](http://localhost:8080/services)  
 [Swagger](http://localhost:8080/swagger-ui.html)  
 [WSDL](http://localhost:8080/services/hello?wsdl)    
-[Actuator - health endpoint](http://localhost:8080/health)  
+[Actuator - health endpoint](http://localhost:8080/management-ui/health)  
 [H2 Console](http://localhost:8080/h2-consolehttp://localhost:8080/h2-console)
 
 # Spring Boot CXF JAX-WS Starter
@@ -49,3 +49,6 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 # Swagger
 [Setting Up Swagger 2 with a Spring REST API](http://www.baeldung.com/swagger-2-documentation-for-spring-rest-api)    
 [Spring Boot Restful API documentation with Swagger 2](https://springframework.guru/spring-boot-restful-api-documentation-with-swagger-2/)
+
+# Spring Boot Gradle plugin
+[Spring Boot Gradle plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-gradle-plugin.html)
