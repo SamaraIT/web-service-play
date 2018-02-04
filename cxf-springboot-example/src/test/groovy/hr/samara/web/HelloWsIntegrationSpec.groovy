@@ -9,7 +9,7 @@ import spock.lang.Specification
 import spock.lang.Unroll
 
 @SpringBootTest(classes = SampleWsApplication.class, webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class SampleWsIntegrationSpec extends Specification {
+class HelloWsIntegrationSpec extends Specification {
 
     private HelloService client
 

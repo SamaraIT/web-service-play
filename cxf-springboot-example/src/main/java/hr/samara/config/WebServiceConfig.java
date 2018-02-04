@@ -18,6 +18,9 @@ import javax.xml.ws.Endpoint;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * cxf config
+ */
 @Configuration
 public class WebServiceConfig {
 
