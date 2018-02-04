@@ -20,7 +20,7 @@ import static org.springframework.security.test.web.servlet.request.SecurityMock
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get
 
 /**
- * test management and swagger access and security
+ * test management and swagger access and security using mock mvc
  */
 @SpringBootTest(classes = [SwaggerSecurityConfig, SwaggerConfig], webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
@@ -43,9 +43,9 @@ class WebAccessSpec extends Specification {
     String userPass
 
     def setup() {
-        healthPath = env.getProperty('management.context-path') + '/health'
-        userName = env.getProperty('app.swagger.username')
-        userPass = env.getProperty('app.swagger.password')
+        this.healthPath = env.getProperty('management.context-path') + '/health'
+        this.userName = env.getProperty('app.swagger.username')
+        this.userPass = env.getProperty('app.swagger.password')
     }
 
     def "management-ui is secured - 401"() throws Exception {
