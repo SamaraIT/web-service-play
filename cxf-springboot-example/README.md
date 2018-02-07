@@ -25,7 +25,6 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 [Configuring Logback with Spring Boot](https://lankydanblog.com/2017/08/31/configuring-logback-with-spring-boot/)  
 [Solving Your Logging Problems With Logback](https://dzone.com/articles/solving-your-logging-problems-with-logback)  
 
-
 # Actuator endpoints
 [Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)  
 [Spring Boot Actuator: A Complete Guide](https://dzone.com/articles/spring-boot-actuator-a-complete-guide)  
@@ -52,3 +51,7 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 
 # Spring Boot Gradle plugin
 [Spring Boot Gradle plugin](https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-gradle-plugin.html)
+
+# AOP
+[Spring JDK Proxies vs CGLIB vs AspectJ](https://www.credera.com/blog/technology-insights/open-source-technology-insights/aspect-oriented-programming-in-spring-boot-part-2-spring-jdk-proxies-vs-cglib-vs-aspectj/)
+

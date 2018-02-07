@@ -4,7 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
+// AOP - use cglib
+@EnableAspectJAutoProxy(proxyTargetClass=true)
 @SpringBootApplication
 public class SampleWsApplication extends SpringBootServletInitializer {
 
