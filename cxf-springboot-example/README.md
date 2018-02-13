@@ -29,6 +29,7 @@ Use "cxf.servlet.init" map property to customize CXFServlet properties such as "
 [Spring documentation](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)  
 [Spring Boot Actuator: A Complete Guide](https://dzone.com/articles/spring-boot-actuator-a-complete-guide)  
 [An introduction to Spring Boot Actuator](https://aboullaite.me/an-introduction-to-spring-boot-actuator/)  
+[Configure log level in runtime using Actuator endpoint](http://10.144.227.132:8080/services/hello?wsdl)  
 
 # Lombok
 [Being lazy with Lombok](https://lankydanblog.com/2017/04/29/being-lazy-with-lombok/)  
